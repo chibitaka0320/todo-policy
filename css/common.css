@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: "Hiragino maru Gothic ProN W4", "Hiragino Kaku Gothic Pro","Hiragino Sans", "arial", "Meiryo", "MS PGothic", sans-serif!important;
+    min-width: 380px;
 }
 
 /* ヘッダー */
@@ -52,3 +53,30 @@ main{
 .disclaimer {
     margin-top: 100px;
 }
+
+/* レスポンシブ800 */
+@media screen and (max-width:800px) {
+    main {
+        max-width: 100%;
+        margin: 0;
+        padding-bottom: 40px;
+	}
+
+	.main-header  p{
+        max-width: 100%;
+	}
+
+	.contents {
+        max-width: 100%;
+	}
+
+}
+
+/* レスポンシブ800 */
+@media screen and (max-width:480px) {
+	header h1{
+		font-size: 20px;
+	}
+
+}
+
